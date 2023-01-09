@@ -1,0 +1,128 @@
+.mega-container{
+background-image: url('https://img.freepik.com/free-photo/pastel-pink-oil-paint-textured-background_53876-108408.jpg?w=740&t=st=1672837184~exp=1672837784~hmac=8968b56349d48ac921e596d255836477c64b0414cd529de3344667de36318266');
+background-repeat: no-repeat;
+background-size:cover;
+padding: 5%;
+
+}
+.challnge1 ,.challenge3,.challenge2{
+    background-image: url('https://img.freepik.com/free-vector/winter-background-with-pastel-color-brushes-leaves_220290-42.jpg?w=740&t=st=1672837263~exp=1672837863~hmac=3db92948af8387df10a45b124331287350918a50ef6b77d1713179cc490a5656');
+    color: #139ca8;
+    padding: 18px;
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size:cover;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.button{
+  display: grid; 
+  grid-template-columns: 1.2fr 1.3fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "btn1 btn2"
+    "result result"; 
+    
+}
+
+.btn1 {
+    background: #ebb7b7;
+    border-radius: 28px;
+    border: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    grid-area: btn1;
+    width: 250px;
+    
+    margin: auto;
+    
+  }
+  
+  .btn1:hover {
+    background: #e07e7e;
+    text-decoration: none;
+  }
+
+  .btn2 {
+    background: #ebb7b7;
+    border-radius: 28px;
+    border: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    grid-area: btn2;
+    width: 250px;
+    margin: auto;
+ 
+  }
+  
+  .btn2:hover {
+    background: #e07e7e;
+    text-decoration: none;
+  }
+
+  #result1{
+    text-align: center;
+    grid-area: result;
+  }
+
+  .button2{
+    display: grid; 
+    grid-template-columns: 1.2fr 1.3fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "btn3 btn3"; 
+
+      
+  }
+  .btn3{
+    background: #ebb7b7;
+    border-radius: 28px;
+    border: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    grid-area: btn3;
+    width: 250px;
+    margin: auto;
+  }
+
+  .btn3:hover {
+    background: #e07e7e;
+    text-decoration: none;
+  }
+
+  .catFlex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .catFlex img{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
+
+  .flex3 img{
+ margin:20px;
+  }
+  .flex3 img:hover{
+    -webkit-box-shadow: -11px 13px 42px -17px rgba(0,133,106,1);
+-moz-box-shadow: -11px 13px 42px -17px rgba(0,133,106,1);
+box-shadow: -11px 13px 42px -17px rgba(0,133,106,1);
+  }
+
+  .flex3OnClick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

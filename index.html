@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <div class="mega-container">
+        <div class="challnge1">
+           <h1>Your Age In Days</h1>
+           <div class="button">
+               <button class="btn1" onClick="ageInDays()">
+                        Click Me
+               </button>
+               <button class="btn2" onclick="reset()">
+                        Reset
+               </button>
+               
+               <div id="result1">
+   
+               </div>
+            </div>
+        </div>
+
+        <div class="challenge2">
+            <h1>Generate Cat</h1>
+            <div class="button2">
+             <button class="btn3" onclick="generateCat()">
+                Generate Cat
+             </button>
+            </div>
+            <div class="catFlex" id="catFlex">
+
+            </div>
+        </div>
+
+        <div class="challenge3">
+            <h1>Rock Paper Scissors</h1>
+            <div class="flex3" id="flex3">
+                <img src="images/rock.jpg" alt="" id="rock" height="150px"  width="150px" onclick="rpsGame(this)">
+                <img src="images/paper.avif" alt="" id="paper" height="150px"  width="150px" onclick="rpsGame(this)">
+                <img src="images/scissors.avif" alt="" id="scissor" height="150px"  width="150px" onclick="rpsGame(this)">
+            </div>
+        </div>
+    </div>
+<script src="javascript/script.js"></script>
+</body>
+</html>
